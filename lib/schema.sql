@@ -19,7 +19,7 @@ CREATE TABLE books (
   id INTEGER PRIMARY KEY
   title TEXT,
   year INTEGER,
-  series_id INTEGER 
+  series_id INTEGER
 );
 
 CREATE TABLE characters (
@@ -31,7 +31,7 @@ CREATE TABLE characters (
 );
 
 CREATE TABLE character_books (
-  id INTEGER Primary KEy,
+  id INTEGER PRIMARY KEY,
   book_id INTEGER,
   character_id INTEGER
 );
